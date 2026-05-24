@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madapa Ranadeep | Portfolio</title>
+    <!-- Modern Typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome for standard icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Scroll Progress Bar -->
+    <div id="scroll-progress"></div>
+
+    <!-- Preloader -->
+    <div id="preloader" class="preloader">
+        <div class="preloader-content">
+            <div class="preloader-logo">
+                <span class="logo-text">MADAPA RANADEEP</span>
+                <span class="logo-subtitle">PORTFOLIO</span>
+            </div>
+
+            <div class="loading-system">
+                <div class="percentage-container">
+                    <span id="load-percent">0</span><span class="symbol">%</span>
+                </div>
+                <div class="progress-bar-wrap">
+                    <div class="progress-bar-fill" id="progressFill"></div>
+                </div>
+                <div class="status-msg-container">
+                    <p id="statusMsg">INITIALIZING SYSTEM...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar">
+        <a href="#" class="logo">Madapa Ranadeep</a>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#achievements">Achievements</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact" class="btn-contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero section reveal-on-scroll">
+            <div class="hero-content">
+                <p class="greeting stagger-item">Hi, I'm</p>
+                <h1 class="main-title name-title stagger-item">Madapa Ranadeep</h1>
+                <p class="typed-intro stagger-item">And I'm a <span class="typing-text"></span><span
+                        class="cursor"></span>
+                </p>
+                <p class="subtitle stagger-item">Aspiring Python Full Stack Developer focused on solving real-world
+                    problems using
+                    data-driven approaches.</p>
+                <div class="hero-socials stagger-item">
+                    <a href="https://www.linkedin.com/in/ranadeep-madapa?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                        target="_blank" class="social-circle" aria-label="LinkedIn"><i
+                            class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://github.com/RanadeepMadapa" target="_blank" class="social-circle"
+                        aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                    <a href="mailto:ranadeepchary7@gmail.com" class="social-circle" aria-label="Email"><i
+                            class="fa-solid fa-envelope"></i></a>
+                </div>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary btn-magnetic stagger-item">View My Projects</a>
+                    <a href="https://drive.google.com/file/d/1ruIQ_GjWua9AmUJg2ZZF8LGDE49kxZaj/view?usp=drivesdk"
+                        class="btn btn-secondary btn-magnetic stagger-item" target="_blank">Download Resume</a>
+                </div>
+            </div>
+            <div class="hero-visual stagger-item">
+                <div class="hero-image-container">
+                    <img src="Madapa Ranadeep-1.jpeg.webp" alt="Madapa Ranadeep" class="hero-img">
+                </div>
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about" class="about section">
+            <div class="about-container">
+                <div class="about-visual">
+                    <div class="orbit-system">
+                        <!-- Central Core -->
+                        <div class="orbit-center">
+                            <i class="fa-solid fa-brain"></i>
+                            <div class="pulse-ring"></div>
+                        </div>
+
+                        <!-- Orbital Paths -->
+                        <div class="orbit-path path-1"></div>
+                        <div class="orbit-path path-2"></div>
+                        <div class="orbit-path path-3"></div>
+
+                        <!-- Orbiting Items -->
+                        <!-- Path 1 (Small) -->
+                        <div class="orbit-item p1-1">
+                            <div class="item-inner"><i class="fa-brands fa-python"></i></div>
+                        </div>
+                        <div class="orbit-item p1-2">
+                            <div class="item-inner"><i class="fa-brands fa-js"></i></div>
+                        </div>
+                        <div class="orbit-item p1-3">
+                            <div class="item-inner"><i class="fa-brands fa-react"></i></div>
+                        </div>
+
+                        <!-- Path 2 (Medium) -->
+                        <div class="orbit-item p2-1">
+                            <div class="item-inner"><i class="fa-brands fa-html5"></i></div>
+                        </div>
+                        <div class="orbit-item p2-2">
+                            <div class="item-inner"><i class="fa-brands fa-css3-alt"></i></div>
+                        </div>
+                        <div class="orbit-item p2-3">
+                            <div class="item-inner"><i class="fa-brands fa-node-js"></i></div>
+                        </div>
+                        <div class="orbit-item p2-4">
+                            <div class="item-inner"><i class="fa-solid fa-database"></i></div>
+                        </div>
+
+                        <!-- Path 3 (Large) -->
+                        <div class="orbit-item p3-1">
+                            <div class="item-inner"><i class="fa-solid fa-code"></i></div>
+                        </div>
+                        <div class="orbit-item p3-2">
+                            <div class="item-inner"><i class="fa-brands fa-java"></i></div>
+                        </div>
+                        <div class="orbit-item p3-3">
+                            <div class="item-inner"><i class="fa-brands fa-git-alt"></i></div>
+                        </div>
+                        <div class="orbit-item p3-4">
+                            <div class="item-inner"><i class="fa-brands fa-bootstrap"></i></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-content-text">
+                    <h2 class="section-title">About Me</h2>
+                    <h3>Get to know me</h3>
+                    <p>I am Madapa Ranadeep, a final-year Computer Science Engineering student with a strong interest in
+                        Python Full Stack Development. I have a solid foundation in Python programming, along with
+                        knowledge of front-end technologies like HTML, CSS, and JavaScript, and back-end development
+                        using frameworks such as Flask and Django. I am familiar with databases like MySQL and MongoDB,
+                        and I understand how to build and deploy full-stack web applications.
+
+                        I am currently enhancing my skills in building scalable web applications and exploring modern
+                        tools and technologies in full stack development. I am eager to apply my knowledge, gain
+                        hands-on experience, and grow as a Python Full Stack Developer.
+
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Expertise (Bento Box Layout) -->
+        <section id="skills" class="skills section reveal-on-scroll">
+            <h2 class="section-title">Professional Skills</h2>
+            <div class="bento-grid">
+                <div class="bento-card bento-40 glass stagger-item">
+                    <div class="card-icon"><i class="fa-brands fa-html5"></i></div>
+                    <h3>Web Development</h3>
+                    <div class="tags">
+                        <span class="tag"><i class="fa-brands fa-html5"></i> HTML5</span>
+                        <span class="tag"><i class="fa-brands fa-css3-alt"></i> CSS3</span>
+                        <span class="tag"><i class="fa-brands fa-js"></i> JavaScript</span>
+                    </div>
+                </div>
+
+                <div class="bento-card bento-30 glass">
+                    <div class="card-icon"><i class="fa-solid fa-code"></i></div>
+                    <h3>Programming Languages</h3>
+                    <div class="tags">
+                        <span class="tag"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg" alt="C Logo" style="width: 14px; height: 14px; vertical-align: middle; margin-right: 4px;"> C</span>
+                        <span class="tag"><i class="fa-brands fa-python"></i> Python</span>
+                        <span class="tag"><i class="fa-solid fa-database"></i> SQL</span>
+                    </div>
+                </div>
+
+                <div class="bento-card bento-30 glass">
+                    <div class="card-icon"><i class="fa-solid fa-cubes"></i></div>
+                    <h3>Libraries</h3>
+                    <div class="tags">
+                        <span class="tag"><i class="fa-solid fa-brain"></i> Scikit-Learn</span>
+                        <span class="tag"><i class="fa-solid fa-table"></i> Pandas</span>
+                        <span class="tag"><i class="fa-solid fa-calculator"></i> NumPy</span>
+                        <span class="tag"><i class="fa-solid fa-fire"></i> TensorFlow</span>
+                    </div>
+                </div>
+
+                <div class="bento-card bento-30 glass">
+                    <div class="card-icon"><i class="fa-solid fa-toolbox"></i></div>
+                    <h3>Developer Tools</h3>
+                    <div class="tags">
+                        <span class="tag"><i class="fa-solid fa-database"></i> MySQL</span>
+                        <span class="tag"><i class="fa-brands fa-github"></i> GitHub</span>
+                        <span class="tag"><i class="fa-brands fa-linux"></i> Linux</span>
+                        <span class="tag"><i class="fa-solid fa-chart-simple"></i> Power BI</span>
+                        <span class="tag"><i class="fa-brands fa-git-alt"></i> Git</span>
+                        <span class="tag"><i class="fa-solid fa-laptop-code"></i> VS Code</span>
+                    </div>
+                </div>
+                <div class="bento-card bento-30 glass">
+                    <div class="card-icon"><i class="fa-solid fa-users"></i></div>
+                    <h3>Soft Skills</h3>
+                    <div class="tags">
+                        <span class="tag"><i class="fa-solid fa-lightbulb"></i> Problem-Solving</span>
+                        <span class="tag"><i class="fa-solid fa-clock"></i> Time-Management</span>
+                        <span class="tag"><i class="fa-solid fa-arrows-spin"></i> Adaptability</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Projects -->
+        <section id="projects" class="projects section reveal-on-scroll">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1: Resume Builder -->
+                <div class="project-card glass stagger-item">
+                    <div class="project-img" style="background: linear-gradient(120deg, #e0e7ff, #ede9fe);">
+                        <i class="fa-solid fa-file-invoice"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Interactive ATS-Friendly Resume Builder</h3>
+                        <p>An interactive, dynamic resume builder application that allows users to easily create, customize, and download their professional resumes. It features a modern WYSIWYG editor with live preview, auto-fill functionality, and direct PDF export capabilities.</p>
+                        <div class="project-tech">
+                            <i class="fa-brands fa-html5" title="HTML5"></i>
+                            <i class="fa-brands fa-css3-alt" title="CSS3"></i>
+                            <i class="fa-brands fa-js" title="JavaScript"></i>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://ranadeepmadapa.github.io/Resume-Builder/"
+                                target="_blank" class="btn-link">Live Preview
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            <a href="https://github.com/RanadeepMadapa/Resume-Builder"
+                                target="_blank" class="btn-link">GitHub
+                                <i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="certifications" class="certifications section">
+            <h2 class="section-title">Certifications</h2>
+            <div class="projects-grid" id="certificateList">
+                <!-- Certificates will be added here -->
+                <div class="cert-card glass" onclick="openModal('certModal1')">
+                    <div class="cert-icon"><i class="fa-brands fa-python"></i></div>
+                    <div class="cert-info">
+                        <h3>Python 101 for Data Science</h3>
+                        <p class="cert-issuer">IBM / Cognitive Class</p>
+                    </div>
+                </div>
+                <div class="cert-card glass" onclick="openModal('certModal2')">
+                    <div class="cert-icon"><i class="fa-solid fa-file-excel" style="color:#107c41;"></i></div>
+                    <div class="cert-info">
+                        <h3>Introduction to MS Excel</h3>
+                        <p class="cert-issuer">Simplilearn</p>
+                    </div>
+                </div>
+                <div class="cert-card glass" onclick="openModal('certModal3')">
+                    <div class="cert-icon"><i class="fa-solid fa-brain" style="color:#8b5cf6;"></i></div>
+                    <div class="cert-info">
+                        <h3>Generative AI Mastermind</h3>
+                        <p class="cert-issuer">LinkedIn</p>
+                    </div>
+                </div>
+                <div class="cert-card glass" onclick="openModal('certModal4')">
+                    <div class="cert-icon"><i class="fa-solid fa-chart-line" style="color:#ef4444;"></i></div>
+                    <div class="cert-info">
+                        <h3>Data Analytics Job Simulation</h3>
+                        <p class="cert-issuer">Deloitte</p>
+                    </div>
+                </div>
+                <div class="cert-card glass" onclick="openModal('certModal5')">
+                    <div class="cert-icon"><i class="fa-brands fa-python" style="color:#3b82f6;"></i></div>
+                    <div class="cert-info">
+                        <h3>Python Developer Internship - Unstop Tech Fair 2025</h3>
+                        <p class="cert-issuer">Unstop</p>
+                    </div>
+                </div>
+                <div class="cert-card glass" onclick="openModal('certModal6')">
+                    <div class="cert-icon"><i class="fa-solid fa-user-graduate" style="color:#10b981;"></i></div>
+                    <div class="cert-info">
+                        <h3>TCS iON Career Edge - Young Professional</h3>
+                        <p class="cert-issuer">TCS iON</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements Section -->
+        <section id="achievements" class="achievements section reveal-on-scroll">
+            <h2 class="section-title">Achievements</h2>
+            <div class="achievements-grid">
+                <div class="achievement-card glass stagger-item">
+                    <div class="achievement-icon">
+                        <i class="fa-solid fa-trophy"></i>
+                    </div>
+                    <div class="achievement-info">
+                        <h3>Coding Achievements</h3>
+                        <p>Successfully solved over 100 algorithmic challenges collectively on <strong>LeetCode</strong>
+                            and <strong>GeeksforGeeks</strong>, demonstrating strong problem-solving and logical
+                            reasoning skills.</p>
+                        <span class="achievement-date">January 2026 – Present</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="education section">
+            <h2 class="section-title">Education Journey</h2>
+            <div class="timeline-modern">
+                <!-- University -->
+                <div class="timeline-item-modern left">
+                    <div class="timeline-icon-modern"><i class="fa-solid fa-graduation-cap"></i></div>
+                    <div class="timeline-content-modern glass">
+                        <h3>Bachelor of Technology in Computer Science and Engineering</h3>
+                        <h4 class="timeline-institution-modern">Trinity College Of Engineering and Technology Karimnagar
+                        </h4>
+                        <span class="modern-badge">August 2023 – Present</span>
+                        <p>Currently in my Final year. Relevant coursework includes Data Structures, Algorithms, Web
+                            Development, and Database Management Systems. Maintaining a <strong>CGPA of 7.25</strong>.
+                        </p>
+                    </div>
+                </div>
+                <!-- Intermediate -->
+                <div class="timeline-item-modern right">
+                    <div class="timeline-icon-modern"><i class="fa-solid fa-atom"></i></div>
+                    <div class="timeline-content-modern glass">
+                        <h3>Intermediate Education</h3>
+                        <h4 class="timeline-institution-modern">Sadhana Junior College</h4>
+                        <span class="modern-badge">June 2020 – March 2022</span>
+                        <p>Completed with a focus on Mathematics, Physics, and Chemistry (MPC). Secured an <strong>80.07%
+                                aggregate</strong>.</p>
+                    </div>
+                </div>
+                <!-- High School -->
+                <div class="timeline-item-modern left">
+                    <div class="timeline-icon-modern"><i class="fa-solid fa-school"></i></div>
+                    <div class="timeline-content-modern glass">
+                        <h3>Secondary School Education (Matriculation)</h3>
+                        <h4 class="timeline-institution-modern">Zilla Parishad High School Endapally</h4>
+                        <span class="modern-badge">June 2019 – March 2020</span>
+                        <p>Completed 10th standard with a perfect score of <strong>10 CGPA</strong>, building a strong
+                            core foundation.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certificate Modals will be added here -->
+        <div id="certModal1" class="modal">
+            <div class="modal-content glass">
+                <span class="close-modal" onclick="closeModal('certModal1')">&times;</span>
+                <div class="modal-header">
+                    <div class="cert-icon large-icon"><i class="fa-brands fa-python"></i></div>
+                    <h3>Python 101 for Data Science</h3>
+                </div>
+                <div class="modal-body">
+                    <h4>Key Topics Covered</h4>
+                    <ul>
+                        <li>Python Data Structures (Lists, Tuples, Sets, Dictionaries)</li>
+                        <li>Programming Fundamentals (Conditions, Branching, Loops, Functions, Classes)</li>
+                        <li>Working with Data in Python using Pandas and NumPy</li>
+                        <li>Reading, writing, and manipulating files and datasets</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <a href="https://courses.cognitiveclass.ai/certificates/a997d24bd4ed4bbd8294215717e66740"
+                        target="_blank" class="btn btn-primary btn-full">View Certificate <i
+                            class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div id="certModal2" class="modal">
+            <div class="modal-content glass">
+                <span class="close-modal" onclick="closeModal('certModal2')">&times;</span>
+                <div class="modal-header">
+                    <div class="cert-icon large-icon"><i class="fa-solid fa-file-excel" style="color:#107c41;"></i></div>
+                    <h3>Introduction to MS Excel</h3>
+                </div>
+                <div class="modal-body">
+                    <h4>Key Topics Covered</h4>
+                    <ul>
+                        <li>Navigating the MS Excel interface and essential shortcuts</li>
+                        <li>Formatting, organizing, and cleaning datasets</li>
+                        <li>Using essential formulas and functions for data analysis</li>
+                        <li>Creating dynamic charts, graphs, and formatting data tables</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <a href="https://www.simplilearn.com/skillup-certificate-landing?token=eyJjb3Vyc2VfaWQiOiIxNzc3IiwiY2VydGlmaWNhdGVfdXJsIjoiaHR0cHM6XC9cL2NlcnRpZmljYXRlcy5zaW1wbGljZG4ubmV0XC9zaGFyZVwvOTA2NjQ4OF84OTcxNjc4MTc1OTEzMzE2MDM1MC5wbmciLCJ1c2VybmFtZSI6Ik1hZGFwYSBSYW5hZGVlcCAifQ&utm_source=shared-certificate&utm_medium=app_lms&utm_campaign=shared-certificate-promotion&referrer=https%3A%2F%2Fcertificates.simplicdn.net%2Fshare%2F9066488_89716781759133160350.png&_branch_match_id=1552694387812659103&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXL87MLcjJ1EssKNDLyczL1i8xrAiKjAwpCzJIsq8rSk1LLSrKzEuPTyrKLy9OLbJ1zijKz00FAETo8t49AAAA"
+                        target="_blank" class="btn btn-primary btn-full">View Certificate <i
+                            class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div id="certModal3" class="modal">
+            <div class="modal-content glass">
+                <span class="close-modal" onclick="closeModal('certModal3')">&times;</span>
+                <div class="modal-header">
+                    <div class="cert-icon large-icon"><i class="fa-solid fa-brain" style="color:#8b5cf6;"></i></div>
+                    <h3>Generative AI Mastermind</h3>
+                </div>
+                <div class="modal-body">
+                    <h4>Key Topics Covered</h4>
+                    <ul>
+                        <li>Introduction to Generative AI Concepts</li>
+                        <li>Applications of Large Language Models (LLMs)</li>
+                        <li>Prompt Engineering Strategies</li>
+                        <li>AI Ethics and Future Trends</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <a href="https://www.linkedin.com/posts/ranadeep-madapa_generative-ai-mastermind-activity-7384104958067023872-kWht?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFDYe9wBFe36rxA3zMq4OB_tfDibryAsSyc"
+                        target="_blank" class="btn btn-primary btn-full">View Certificate <i
+                            class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div id="certModal4" class="modal">
+            <div class="modal-content glass">
+                <span class="close-modal" onclick="closeModal('certModal4')">&times;</span>
+                <div class="modal-header">
+                    <div class="cert-icon large-icon"><i class="fa-solid fa-chart-line" style="color:#ef4444;"></i></div>
+                    <h3>Data Analytics Job Simulation</h3>
+                </div>
+                <div class="modal-body">
+                    <h4>Key Topics Covered</h4>
+                    <ul>
+                        <li>Practical application of concepts in a simulated corporate environment</li>
+                        <li>Problem-solving through real-world scenarios</li>
+                        <li>Professional communication and workflow practices</li>
+                        <li>Industry-specific technical tasks and challenges</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <a href="https://www.theforage.com/completion-certificates/9PBTqmSxAf6zZTseP/io9DzWKe3PTsiS6GG_9PBTqmSxAf6zZTseP_sjetJNbZENSQdqmZE_1760803006437_completion_certificate.pdf"
+                        target="_blank" class="btn btn-primary btn-full">View Certificate <i
+                            class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div id="certModal5" class="modal">
+            <div class="modal-content glass">
+                <span class="close-modal" onclick="closeModal('certModal5')">&times;</span>
+                <div class="modal-header">
+                    <div class="cert-icon large-icon"><i class="fa-brands fa-python" style="color:#3b82f6;"></i></div>
+                    <h3>Python Developer Internship - Unstop Tech Fair 2025</h3>
+                </div>
+                <div class="modal-body">
+                    <h4>Key Topics Covered</h4>
+                    <ul>
+                        <li>Advanced Python Programming Concepts</li>
+                        <li>Web Development using Python Frameworks</li>
+                        <li>API Integration and Database Management</li>
+                        <li>Real-world Problem Solving and Project Implementation</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <a href="https://unstop.com/certificate-preview/167ae7c7-402d-4c31-830b-8a42ff39a2c0"
+                        target="_blank" class="btn btn-primary btn-full">View Certificate <i
+                            class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div id="certModal6" class="modal">
+            <div class="modal-content glass">
+                <span class="close-modal" onclick="closeModal('certModal6')">&times;</span>
+                <div class="modal-header">
+                    <div class="cert-icon large-icon"><i class="fa-solid fa-user-graduate" style="color:#10b981;"></i></div>
+                    <h3>TCS iON Career Edge - Young Professional</h3>
+                </div>
+                <div class="modal-body">
+                    <h4>Key Topics Covered</h4>
+                    <ul>
+                        <li>Communication, Presentation, and Behavioral Skills</li>
+                        <li>Foundational IT Skills and Artificial Intelligence</li>
+                        <li>Resume Writing and Interview Preparation</li>
+                        <li>Business Etiquette and Corporate Professionalism</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <a href="https://www.linkedin.com/posts/ranadeep-madapa_tcs-tcsion-coursecompletion-activity-7313054249691574272-Jblg?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFDYe9wBFe36rxA3zMq4OB_tfDibryAsSyc"
+                        target="_blank" class="btn btn-primary btn-full">View Certificate <i
+                            class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-container glass">
+            <div class="contact-form-side">
+                <h3>Let's Connect</h3>
+                <p>I'm always open to discussing new projects, creative ideas or opportunities to be part of your
+                    vision.</p>
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>ranadeepchary7@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Telangana,India</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+91 9177898945</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form-side">
+                <div class="success-message-overlay" id="successMessage">
+                    <div class="success-icon"><i class="fa-solid fa-paper-plane"></i></div>
+                    <h3>Message Sent!</h3>
+                    <p>Thank you for reaching out. I'll get back to you as soon as possible.</p>
+                </div>
+                <h3>Send a Message</h3>
+                <form id="contactForm" action="https://formspree.io/f/xqeyjpkb" method="POST">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" required placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required placeholder="Your Email">
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" required placeholder="Your Message"></textarea>
+                    </div>
+                    <div class="submit-wrapper" id="btnWrapper">
+                        <button type="submit" class="btn btn-primary submit-btn" id="submitBtn">Send Message <i
+                                class="fa-solid fa-paper-plane"></i></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h3>Madapa Ranadeep</h3>
+                <p>Computer Science Engineering Student</p>
+            </div>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/ranadeep-madapa?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" aria-label="LinkedIn"><i
+                        class="fa-brands fa-linkedin"></i> LinkedIn</a>
+                <a href="https://github.com/RanadeepMadapa" target="_blank" aria-label="GitHub"><i
+                        class="fa-brands fa-github"></i>
+                    GitHub</a>
+                <a href="mailto:ranadeepchary7@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i>
+                    Email</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Madapa Ranadeep. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
