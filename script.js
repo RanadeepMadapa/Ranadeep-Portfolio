@@ -128,7 +128,7 @@ document.querySelectorAll('.reveal-on-scroll').forEach((el) => {
 });
 
 // Typing Animation
-const textsToType = ["Tech Enthusiast", "Python Developer", "Final Year Student"];
+const textsToType = ["Tech Enthusiast", "Python Developer", "Fresher"];
 const typingElement = document.querySelector(".typing-text");
 let textIndex = 0;
 let charIndex = 0;
